@@ -5,7 +5,7 @@ const Landing = () => {
     <div className={"hero"}>
       <div className={"hero-body"}>
         <div className={"container"}>
-          <h1 className={"title"}>
+          <h1>
             IT'S <br />
             ANMICIUS
           </h1>

@@ -23,14 +23,19 @@
   position: fixed;
 }
 
-.navbar a {
+.navbar .login > a {
   color: #000000;
   text-decoration: none;
   font-family: "Cantarell";
   font-size: 1em;
+  position: fixed;
+  right: 8em;
 }
 
-.navbar .is-primary {
+.navbar .signup {
+  position: fixed;
+  right: 1em;
+  top: 0.1em;
   font-weight: 700;
   font-size: 1em;
 }
@@ -109,5 +114,9 @@
   font-family: "Cantarell" sans-serif;
   font-weight: 700;
   color: #00d1b2;
+}
+
+.banner h2 {
+  font-size: 2em !important;
 }
 /*# sourceMappingURL=App.css.map */
