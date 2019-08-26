@@ -28,26 +28,28 @@ $primary-color: #00d1b2;
   margin: 0;
   position: fixed;
 
-  .login > a {
-    color: #000000;
-    text-decoration: none;
-    font-family: "Cantarell";
-    font-size: 1em;
-    position: fixed;
-    right: 8em;
-  }
-
-  .signup {
-    position: fixed;
-    right: 1em;
-    top: 0.1em;
-    font-weight: 700;
-    font-size: 1em;
-  }
-
   #Logo {
     height: 3vh;
     margin: 0.5em;
+  }
+
+  .navbar-menu {
+    text-align: center;
+    .login {
+      a {
+        color: #000000;
+        text-decoration: none;
+        font-family: "Cantarell";
+        font-size: 1.5em;
+      }
+    }
+
+    .signup {
+      a {
+        font-size: 1.5em;
+        font-weight: 700;
+      }
+    }
   }
 }
 
