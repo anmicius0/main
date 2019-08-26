@@ -19,29 +19,109 @@
   src: url("./font/DINPro-Bold_13934.ttf");
 }
 
-//*******************************************************************
+$primary-color: #00d1b2;
+
+/*/*******************************************************************/
 //  Navbar                                                         //
-//*******************************************************************
+/*/*******************************************************************/
 .navbar {
   margin: 0;
-  padding: 0.3em 5em 0 1.5em;
   position: fixed;
+
+  .navbar-item {
+  }
 
   a {
     color: #000000;
     text-decoration: none;
     font-family: "Cantarell";
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .is-primary {
     font-weight: 700;
-    font-size: 1.4em;
-    margin-left: 0.8em;
+    font-size: 1em;
   }
 
   #Logo {
-    height: 5vh;
+    height: 3vh;
     margin: 0.5em;
+  }
+}
+
+//*******************************************************************
+//  Landing                                                        //
+//*******************************************************************
+
+.hero-body {
+  margin: 4em 0 0 0;
+  padding-bottom: 0;
+
+  h1 {
+    font-family: "DINpro", sans-serif;
+    font-size: 3em;
+    color: $primary-color;
+  }
+}
+
+//*******************************************************************
+//  Project  and  Blog                                             //
+//*******************************************************************
+.section {
+  h2 {
+    font-family: "DINpro", sans-serif;
+    font-size: 2.5em;
+    color: #000000;
+  }
+  .projects > .column {
+    background: #ffffff;
+    border: 0.5px solid rgba(0, 209, 178, 0.3);
+    box-sizing: border-box;
+    box-shadow: -3px 3px 4px rgba(0, 209, 178, 0.3);
+    border-radius: 18px;
+
+    margin: 1.5em 2em;
+    padding: 2em;
+    text-align: center;
+
+    h3 {
+      font-family: "Cantarell";
+      font-weight: 700;
+      font-size: 1.5em;
+      color: #000000;
+    }
+
+    button {
+      border-radius: 6px;
+      margin-top: 1.5em;
+    }
+  }
+
+  .blog > .column {
+    background: #ffffff;
+    border: 0.5px solid rgba(0, 209, 178, 0.3);
+    box-sizing: border-box;
+    box-shadow: -3px 3px 4px rgba(0, 209, 178, 0.3);
+    border-radius: 18px;
+    text-align: end;
+
+    margin: 1.5em 0.8em;
+    padding: 1.5em;
+
+    h3 {
+      text-align: start;
+      font-family: "Cantarell";
+      font-weight: 700;
+      font-size: 1.25em;
+      color: #000000;
+    }
+
+    p {
+      border-radius: 6px;
+      margin-top: 1.5em;
+      font-family: "Cantarell" sans-serif;
+      font-weight: 700;
+      color: $primary-color;
+    }
   }
 }

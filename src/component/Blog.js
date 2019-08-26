@@ -7,26 +7,30 @@ const Blog = () => {
         <div className={"container"}>
           <div>
             <h2>Blog</h2>
-            <div className={"columns is-multiline"}>
-              <div className={"column is-full-mobile is-half"}>
+            <div className={"columns is-multiline blog"}>
+              <div className={"column is-half"}>
                 <h3>Trump Offers Contradictory Signals on China Trade War</h3>
-                <button>Read more</button>
+                <p> Read More</p>
               </div>
-              <div className={"column is-full-mobile is-half"}>
-                <h3>Trump Offers Contradictory Signals on China Trade War</h3>
-                <button>Read more</button>
+              <div className={"column is-half"}>
+                <h3>
+                  Voluptate elit cupidatat est sint dolore. Fugiat occaecat
+                  occaecat veniam officia. Veniam duis elit esse laborum nulla
+                  anim amet ipsum in cupidatat ex eu.
+                </h3>
+                <p> Read More</p>
               </div>
-              <div className={"column is-full-mobile is-half"}>
-                <h3>Trump Offers Contradictory Signals on China Trade War</h3>
-                <button>Read more</button>
+              <div className={"column is-half"}>
+                <h3>.</h3>
+                <p> Read More</p>
               </div>
-              <div className={"column is-full-mobile is-half"}>
+              <div className={"column is-half"}>
                 <h3>Trump Offers Contradictory Signals on China Trade War</h3>
-                <button>Read more</button>
+                <p> Read More</p>
               </div>
-              <div className={"column is-full-mobile is-half"}>
+              <div className={"column is-half"}>
                 <h3>Trump Offers Contradictory Signals on China Trade War</h3>
-                <button>Read more</button>
+                <p> Read More</p>
               </div>
             </div>
           </div>
