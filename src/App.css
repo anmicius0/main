@@ -44,14 +44,14 @@
   font-weight: 700;
 }
 
-.hero-body {
+.title {
   margin: 4em 0 0 0;
   padding-bottom: 0;
 }
 
-.hero-body h1 {
+.title h1 {
   font-family: "DINpro", sans-serif;
-  font-size: 3em;
+  font-size: 1.5em;
   color: #00d1b2;
 }
 
@@ -116,6 +116,6 @@
 }
 
 .banner h2 {
-  font-size: 2em !important;
+  font-size: 2em;
 }
 /*# sourceMappingURL=App.css.map */
