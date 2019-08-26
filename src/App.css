@@ -118,4 +118,30 @@
 .banner h2 {
   font-size: 2em;
 }
+
+.about h2 > span {
+  color: #00d1b2;
+}
+
+.about p {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  margin: 1em 0 2em 0;
+}
+
+.about a {
+  background: #ffffff;
+  border: 0.3px solid rgba(0, 209, 178, 0.3);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: -3px 3px 4px rgba(0, 209, 178, 0.3);
+          box-shadow: -3px 3px 4px rgba(0, 209, 178, 0.3);
+  border-radius: 10px;
+  height: auto;
+  margin: 1.4em 3.5em;
+}
+
+.about a span {
+  font-size: 1.3em;
+}
 /*# sourceMappingURL=App.css.map */

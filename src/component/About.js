@@ -4,10 +4,10 @@ const About = () => {
   return (
     <>
       <div className={"section"}>
-        <div className={"container"}>
+        <div className={"container about"}>
           <h2>
             About <br />
-            ANMICIUS
+            <span>ANMICIUS</span>
           </h2>
           <p>
             Et in ea sint labore non nulla ut anim ad labore. Amet laborum est
@@ -17,24 +17,30 @@ const About = () => {
             id cillum mollit.
           </p>
 
-          <div className={"buttons"}>
-            <a href="#">
-              <div>
-                {/* icon */}
-                <h4>Github</h4>
-              </div>
+          <div className={"columns is-multiline"}>
+            <a href="#" className={"column button is-quarter is-medium"}>
+              <span className={"icon"}>
+                <i className={"fab fa-github"}></i>
+              </span>
+              <span>Github</span>
             </a>
-            <a href="#">
-              <div>
-                {/* icon */}
-                <h4>Github</h4>
-              </div>
+            <a href="#" className={"column button is-quarter is-medium"}>
+              <span className={"icon"}>
+                <i className={"fab fa-github"}></i>
+              </span>
+              <span>Github</span>
             </a>
-            <a href="#">
-              <div>
-                {/* icon */}
-                <h4>Github</h4>
-              </div>
+            <a href="#" className={"column button is-quarter is-medium"}>
+              <span className={"icon"}>
+                <i className={"fab fa-github"}></i>
+              </span>
+              <span>Github</span>
+            </a>
+            <a href="#" className={"column button is-quarter is-medium"}>
+              <span className={"icon"}>
+                <i className={"fab fa-github"}></i>
+              </span>
+              <span>Github</span>
             </a>
           </div>
         </div>
