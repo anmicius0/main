@@ -1,0 +1,47 @@
+//*******************************************************************
+//  Initial Value                                                  //
+//*******************************************************************
+@font-face {
+  font-family: "Cantarell";
+  font-weight: 400;
+  src: url("./font/Cantarell-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Cantarell";
+  font-weight: 700;
+  src: url("./font/Cantarell-Bold.ttf");
+}
+
+@font-face {
+  font-family: "DINpro";
+  font-weight: 700;
+  src: url("./font/DINPro-Bold_13934.ttf");
+}
+
+//*******************************************************************
+//  Navbar                                                         //
+//*******************************************************************
+.navbar {
+  margin: 0;
+  padding: 0.3em 5em 0 1.5em;
+  position: fixed;
+
+  a {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Cantarell";
+    font-size: 1.2em;
+  }
+
+  .is-primary {
+    font-weight: 700;
+    font-size: 1.4em;
+    margin-left: 0.8em;
+  }
+
+  #Logo {
+    height: 5vh;
+    margin: 0.5em;
+  }
+}

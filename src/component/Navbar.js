@@ -1,10 +1,13 @@
 import React from "react";
+import { ReactComponent as Logo } from "../image/logo.svg";
 
 const Navbar = () => {
   return (
-    <nav className={"navbar"}>
+    <nav className={"navbar is-fixed-top"}>
       <div className={"navbar-brand"}>
-        <a href="#">{/* logo */}</a>
+        <a href="#" className={"navbar-item"}>
+          <Logo id="Logo" />
+        </a>
 
         {/* hamburger icon */}
         <a
@@ -28,7 +31,7 @@ const Navbar = () => {
           </div>
           <div className={"navbar-item"}>
             <a href="#" className={"button is-primary"}>
-              Log in
+              Sign up
             </a>
           </div>
         </div>
