@@ -17,7 +17,7 @@ const About = () => {
             id cillum mollit.
           </p>
 
-          <div className={"columns is-multiline"}>
+          <div className={"columns is-multiline is-mobile"}>
             <a href="#" className={"column button is-medium"}>
               <span className={"icon"}>
                 <i className={"fab fa-github"}></i>

@@ -8,11 +8,11 @@ const Blog = () => {
           <div>
             <h2>Blog</h2>
             <div className={"columns is-multiline blog"}>
-              <div className={"column is-half"}>
+              <div className={"column is-6"}>
                 <h3>Trump Offers Contradictory Signals on China Trade War</h3>
                 <p> Read More</p>
               </div>
-              <div className={"column is-half"}>
+              <div className={"column is-6"}>
                 <h3>
                   Voluptate elit cupidatat est sint dolore. Fugiat occaecat
                   occaecat veniam officia. Veniam duis elit esse laborum nulla
@@ -20,11 +20,11 @@ const Blog = () => {
                 </h3>
                 <p> Read More</p>
               </div>
-              <div className={"column is-half"}>
+              <div className={"column is-6"}>
                 <h3>.</h3>
                 <p> Read More</p>
               </div>
-              <div className={"column is-half"}>
+              <div className={"column is-6"}>
                 <h3>
                   President Trump shifted tone on his trade war with China yet
                   again on Monday, calling President Xi Jinping of China a
@@ -43,7 +43,7 @@ const Blog = () => {
                 </h3>
                 <p> Read More</p>
               </div>
-              <div className={"column is-half"}>
+              <div className={"column is-6"}>
                 <h3>Trump Offers Contradictory Signals on China Trade War</h3>
                 <p> Read More</p>
               </div>

@@ -100,7 +100,10 @@ body {
 
     button {
       border-radius: 6px;
+      border-width: 2px;
       margin-top: 1.5em;
+      font-weight: 700;
+      font-size: 1.1em;
     }
   }
 
@@ -142,7 +145,7 @@ body {
 }
 
 //*******************************************************************
-//  Banner                                                         //
+//  About                                                          //
 //*******************************************************************
 
 .about {
@@ -163,7 +166,11 @@ body {
     box-shadow: -3px 3px 4px rgba(0, 209, 178, 0.3);
     border-radius: 10px;
     height: auto;
-    margin: 1.4em 3.5em;
+    margin: 0.5em;
+
+    i {
+      color: $primary-color;
+    }
 
     span {
       font-size: 1.3em;
@@ -177,7 +184,7 @@ body {
 
 .footer {
   background-color: #000000 !important;
-  padding: 0.8em !important;
+  padding: 1em !important;
   color: rgba(255, 255, 255, 0.55);
   text-align: center;
 }
