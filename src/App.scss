@@ -21,6 +21,10 @@
 
 $primary-color: #00d1b2;
 
+body {
+  font-family: "Cantarell", sans-serif;
+}
+
 /*/*******************************************************************/
 //  Navbar                                                         //
 /*/*******************************************************************/
@@ -39,14 +43,13 @@ $primary-color: #00d1b2;
       a {
         color: #000000;
         text-decoration: none;
-        font-family: "Cantarell";
-        font-size: 1.5em;
+        font-size: 1.2em;
       }
     }
 
     .signup {
       a {
-        font-size: 1.5em;
+        font-size: 1.3em;
         font-weight: 700;
       }
     }
@@ -90,7 +93,6 @@ $primary-color: #00d1b2;
     text-align: center;
 
     h3 {
-      font-family: "Cantarell";
       font-weight: 700;
       font-size: 1.5em;
       color: #000000;
@@ -115,7 +117,6 @@ $primary-color: #00d1b2;
 
     h3 {
       text-align: start;
-      font-family: "Cantarell";
       font-weight: 700;
       font-size: 1.25em;
       color: #000000;
@@ -124,7 +125,6 @@ $primary-color: #00d1b2;
     p {
       border-radius: 6px;
       margin-top: 1.5em;
-      font-family: "Cantarell" sans-serif;
       font-weight: 700;
       color: $primary-color;
     }
@@ -169,4 +169,15 @@ $primary-color: #00d1b2;
       font-size: 1.3em;
     }
   }
+}
+
+//*******************************************************************
+//  Footer                                                         //
+//*******************************************************************
+
+.footer {
+  background-color: #000000 !important;
+  padding: 0.8em !important;
+  color: rgba(255, 255, 255, 0.55);
+  text-align: center;
 }

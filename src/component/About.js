@@ -18,25 +18,25 @@ const About = () => {
           </p>
 
           <div className={"columns is-multiline"}>
-            <a href="#" className={"column button is-quarter is-medium"}>
+            <a href="#" className={"column button is-medium"}>
               <span className={"icon"}>
                 <i className={"fab fa-github"}></i>
               </span>
               <span>Github</span>
             </a>
-            <a href="#" className={"column button is-quarter is-medium"}>
+            <a href="#" className={"column button is-medium"}>
               <span className={"icon"}>
                 <i className={"fab fa-github"}></i>
               </span>
               <span>Github</span>
             </a>
-            <a href="#" className={"column button is-quarter is-medium"}>
+            <a href="#" className={"column button is-medium"}>
               <span className={"icon"}>
                 <i className={"fab fa-github"}></i>
               </span>
               <span>Github</span>
             </a>
-            <a href="#" className={"column button is-quarter is-medium"}>
+            <a href="#" className={"column button is-medium"}>
               <span className={"icon"}>
                 <i className={"fab fa-github"}></i>
               </span>
