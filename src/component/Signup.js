@@ -2,7 +2,7 @@ import React from "react";
 
 const Signup = () => {
   return (
-    <div className={"hero is-primary signup-page"}>
+    <div className={"hero is-primary"} id="signup-page">
       <div className={"container"}>
         <h2>Sign up</h2>
         <div className={"field"}>
@@ -23,7 +23,7 @@ const Signup = () => {
             ></input>
           </div>
           <div className={"control"}>
-            <button className={"button"}>Submit</button>
+            <button className={"button"}>SUBIMT</button>
           </div>
         </div>
       </div>

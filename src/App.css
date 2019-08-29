@@ -186,54 +186,53 @@ h3 {
   color: #ffffff;
 }
 
-.signup-page {
+#signup-page {
   padding: 2em;
 }
 
-.signup-page h2 {
+#signup-page h2 {
   color: #ffffff;
   text-align: start;
   margin: 1em 0 !important;
 }
 
-.signup-page .container {
+#signup-page .container {
   margin-bottom: 4em;
 }
 
-.signup-page .container input {
+#signup-page .container input {
   margin-bottom: 2em;
-  border-radius: 7px;
+  border-radius: 10px;
+  height: 3em;
   width: 75vw;
+  padding-left: 1.5em;
   font-weight: 700;
 }
 
-.signup-page .container input::-webkit-input-placeholder {
-  width: 75vw;
-  font-weight: 700;
-  color: #000000;
-}
-
-.signup-page .container input:-ms-input-placeholder {
-  width: 75vw;
+#signup-page .container input::-webkit-input-placeholder {
   font-weight: 700;
   color: #000000;
 }
 
-.signup-page .container input::-ms-input-placeholder {
-  width: 75vw;
+#signup-page .container input:-ms-input-placeholder {
   font-weight: 700;
   color: #000000;
 }
 
-.signup-page .container input::placeholder {
-  width: 75vw;
+#signup-page .container input::-ms-input-placeholder {
   font-weight: 700;
   color: #000000;
 }
 
-.signup-page .container .button {
+#signup-page .container input::placeholder {
+  font-weight: 700;
+  color: #000000;
+}
+
+#signup-page .container .button {
   border-radius: 7px;
   font-weight: 700;
+  padding: 0;
   width: 25vw;
 }
 
@@ -370,6 +369,37 @@ h3 {
     right: 1em;
     font-size: 1.2em;
     background: #ffffff;
+  }
+  #signup-page {
+    height: 97vh;
+  }
+  #signup-page h2 {
+    font-size: 4.7em !important;
+  }
+  #signup-page .container {
+    margin-bottom: 0em;
+  }
+  #signup-page .container input {
+    height: 4em;
+    margin-bottom: 3.2em;
+    padding-left: 3em;
+  }
+  #signup-page .container input::-webkit-input-placeholder {
+    font-size: 1.6em;
+  }
+  #signup-page .container input:-ms-input-placeholder {
+    font-size: 1.6em;
+  }
+  #signup-page .container input::-ms-input-placeholder {
+    font-size: 1.6em;
+  }
+  #signup-page .container input::placeholder {
+    font-size: 1.6em;
+  }
+  #signup-page .container .button {
+    height: 2em;
+    width: 8em;
+    font-size: 2em;
   }
   .about p {
     font-size: 1.7em;

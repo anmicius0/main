@@ -215,7 +215,7 @@ h3 {
 //*******************************************************************
 //  Signup                                                         //
 //*******************************************************************
-.signup-page {
+#signup-page {
   padding: 2em;
 
   h2 {
@@ -229,13 +229,14 @@ h3 {
 
     input {
       margin-bottom: 2em;
-      border-radius: 7px;
+      border-radius: 10px;
+      height: 3em;
       width: 75vw;
+      padding-left: 1.5em;
       font-weight: 700;
     }
 
     input::placeholder {
-      width: 75vw;
       font-weight: 700;
       color: #000000;
     }
@@ -243,6 +244,7 @@ h3 {
     .button {
       border-radius: 7px;
       font-weight: 700;
+      padding: 0;
       width: 25vw;
     }
   }
@@ -406,6 +408,34 @@ h3 {
         right: 1em;
         font-size: 1.2em;
         background: #ffffff;
+      }
+    }
+  }
+
+  #signup-page {
+    height: 97vh;
+
+    h2 {
+      font-size: 4.7em !important;
+    }
+
+    .container {
+      margin-bottom: 0em;
+
+      input {
+        height: 4em;
+        margin-bottom: 3.2em;
+        padding-left: 3em;
+      }
+
+      input::placeholder {
+        font-size: 1.6em;
+      }
+
+      .button {
+        height: 2em;
+        width: 8em;
+        font-size: 2em;
       }
     }
   }
