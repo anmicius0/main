@@ -213,6 +213,41 @@ h3 {
 }
 
 //*******************************************************************
+//  Signup                                                         //
+//*******************************************************************
+.signup-page {
+  padding: 2em;
+
+  h2 {
+    color: #ffffff;
+    text-align: start;
+    margin: 1em 0 !important;
+  }
+
+  .container {
+    margin-bottom: 4em;
+
+    input {
+      margin-bottom: 2em;
+      border-radius: 7px;
+      width: 75vw;
+      font-weight: 700;
+    }
+
+    input::placeholder {
+      width: 75vw;
+      font-weight: 700;
+      color: #000000;
+    }
+
+    .button {
+      border-radius: 7px;
+      font-weight: 700;
+      width: 25vw;
+    }
+  }
+}
+//*******************************************************************
 //  About                                                          //
 //*******************************************************************
 

@@ -186,6 +186,57 @@ h3 {
   color: #ffffff;
 }
 
+.signup-page {
+  padding: 2em;
+}
+
+.signup-page h2 {
+  color: #ffffff;
+  text-align: start;
+  margin: 1em 0 !important;
+}
+
+.signup-page .container {
+  margin-bottom: 4em;
+}
+
+.signup-page .container input {
+  margin-bottom: 2em;
+  border-radius: 7px;
+  width: 75vw;
+  font-weight: 700;
+}
+
+.signup-page .container input::-webkit-input-placeholder {
+  width: 75vw;
+  font-weight: 700;
+  color: #000000;
+}
+
+.signup-page .container input:-ms-input-placeholder {
+  width: 75vw;
+  font-weight: 700;
+  color: #000000;
+}
+
+.signup-page .container input::-ms-input-placeholder {
+  width: 75vw;
+  font-weight: 700;
+  color: #000000;
+}
+
+.signup-page .container input::placeholder {
+  width: 75vw;
+  font-weight: 700;
+  color: #000000;
+}
+
+.signup-page .container .button {
+  border-radius: 7px;
+  font-weight: 700;
+  width: 25vw;
+}
+
 #about {
   height: auto;
   overflow: visible;
