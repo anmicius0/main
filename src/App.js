@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import "bulma";
 
@@ -11,14 +11,34 @@ import About from "./component/About";
 import Footer from "./component/Footer";
 
 function App() {
+  const [projects, setProjects] = useState([
+    { name: "Quizlet tool", link: "https://quizlet.anmicius.tk" },
+    { name: "Stock simulator", link: "https://stock.anmicius.tk" }
+  ]);
+
+  const [contacts, setContacts] = useState([
+    {
+      name: "Github",
+      link: "https://github.com/who-know-cg",
+      icon: "fab fa-github"
+    },
+    { name: "Telegram", link: "https://t.me/cgallen", icon: "fab fa-telegram" },
+    {
+      name: "allenlin@disroot.org",
+      link: "mailto:allenlin@disroot.org",
+      icon: "fas fa-envelope"
+    },
+    { name: "PGP Key", link: "https://stpck.anmicius.tk", icon: "fas fa-key" }
+  ]);
+
   return (
     <>
       <Navbar />
       <Landing />
-      <Projects />
+      <Projects projects={projects} />
       <Banner />
       <Blog />
-      <About />
+      <About contacts={contacts} />
       <Footer />
     </>
   );

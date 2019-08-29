@@ -1,8 +1,10 @@
 import React, { useRef, useState } from "react";
 import arrow from "../image/arrow.png";
 
-const Projects = () => {
+const Projects = props => {
   const [classList, setClassList] = useState(["container limited"]);
+  const projects = props.projects;
+
   const moreFade = useRef(null);
 
   const unlimited = () => {
@@ -16,11 +18,11 @@ const Projects = () => {
         <div className={classList}>
           <h2>Projects</h2>
           <div className={"columns is-multiline is-centered projects"}>
-            {[...Array(10).keys()].map(num => (
-              <div className={"column"}>
-                <h3>Nostrud excepteur ea culpa deserunt .</h3>
+            {projects.map(project => (
+              <a className={"column"} href={project.link}>
+                <h3>{project.name}</h3>
                 <button className={"button is-primary is-outlined"}>Go</button>
-              </div>
+              </a>
             ))}
           </div>
           <div

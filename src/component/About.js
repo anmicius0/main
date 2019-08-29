@@ -1,6 +1,8 @@
 import React from "react";
 
-const About = () => {
+const About = props => {
+  const contacts = props.contacts;
+
   return (
     <>
       <div className={"section"}>
@@ -18,30 +20,14 @@ const About = () => {
           </p>
 
           <div className={"columns is-multiline is-mobile"}>
-            <a href="#" className={"column button is-medium"}>
-              <span className={"icon"}>
-                <i className={"fab fa-github"}></i>
-              </span>
-              <span>Github</span>
-            </a>
-            <a href="#" className={"column button is-medium"}>
-              <span className={"icon"}>
-                <i className={"fab fa-github"}></i>
-              </span>
-              <span>Github</span>
-            </a>
-            <a href="#" className={"column button is-medium"}>
-              <span className={"icon"}>
-                <i className={"fab fa-github"}></i>
-              </span>
-              <span>Github</span>
-            </a>
-            <a href="#" className={"column button is-medium"}>
-              <span className={"icon"}>
-                <i className={"fab fa-github"}></i>
-              </span>
-              <span>Github</span>
-            </a>
+            {contacts.map(contact => (
+              <a href={contact.link} className={"column button is-medium"}>
+                <span className={"icon"}>
+                  <i className={contact.icon}></i>
+                </span>
+                <span>{contact.name}</span>
+              </a>
+            ))}
           </div>
         </div>
       </div>
