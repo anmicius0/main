@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import arrow from "../image/arrow.png";
 
 const Projects = props => {
@@ -7,10 +7,18 @@ const Projects = props => {
 
   const moreFade = useRef(null);
 
+  // expand the projects list, hide more-fade
   const unlimited = () => {
     setClassList(["container"]);
     moreFade.current.style.display = "none";
   };
+
+  // If there is no more than 5 projects, than call unlimited()
+  useEffect(() => {
+    if (projects.length < 5) {
+      unlimited();
+    }
+  }, []);
 
   return (
     <>
@@ -31,7 +39,7 @@ const Projects = props => {
             ref={moreFade}
           >
             <div className={"more-button"}>
-              <img src={arrow} className={"arrow"}></img>
+              <img src={arrow} className={"arrow"} alt="more"></img>
               <span className={"more"}>MORE</span>
             </div>
           </div>
