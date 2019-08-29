@@ -20,6 +20,9 @@
 }
 
 $primary-color: #00d1b2;
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Cantarell", sans-serif;
@@ -216,6 +219,9 @@ body {
 //  Signup                                                         //
 //*******************************************************************
 #signup-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 2em;
 
   h2 {
@@ -435,7 +441,8 @@ body {
   //  Signup                                                         //
   //*******************************************************************
   #signup-page {
-    height: 97vh;
+    height: 100vh;
+    padding: 6em;
 
     h2 {
       font-size: 4.7em;

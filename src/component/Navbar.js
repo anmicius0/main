@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
 
           <div className={"navbar-item signup"} aria-label="signup">
-            <a href="#" className={"button is-primary"}>
+            <a href="#signup-page" className={"button is-primary"}>
               Sign up
             </a>
           </div>
