@@ -1,39 +1,36 @@
-import React from "react";
+import React, { useRef, useState } from "react";
+import arrow from "../image/arrow.png";
 
 const Projects = () => {
+  const [classList, setClassList] = useState(["container limited"]);
+  const moreFade = useRef(null);
+
+  const unlimited = () => {
+    setClassList(["container"]);
+    moreFade.current.style.display = "none";
+  };
+
   return (
     <>
       <div className={"section"}>
-        <div className={"container"}>
+        <div className={classList}>
           <h2>Projects</h2>
-          <div className={"columns is-multiline projects"}>
-            <div className={"column is-one-quarter"}>
-              <h3>Quizlet tool</h3>
-              <button className={"button is-primary is-outlined"}>Go</button>
-            </div>
-            <div className={"column is-one-quarter"}>
-              <h3>
-                Nostrud esse est deserunt laboris occaecat ad. Elit nulla sit
-                mollit pariatur eiusmod laborum non duis ea anim duis id ut.
-                Consectetur excepteur in voluptate aute consectetur sunt sunt
-                adipisicing nostrud elit nisi cillum. Laboris nostrud nostrud
-                eiusmod adipisicing qui anim Lorem ut incididunt ex nulla.
-                Fugiat mollit tempor culpa duis in voluptate. Et laborum ea
-                ipsum Lorem amet tempor velit.
-              </h3>
-              <button className={"button is-primary is-outlined"}>Go</button>
-            </div>
-            <div className={"column is-one-quarter"}>
-              <h3>Quizlet tool</h3>
-              <button className={"button is-primary is-outlined"}>Go</button>
-            </div>
-            <div className={"column is-one-quarter"}>
-              <h3>Quizlet tool</h3>
-              <button className={"button is-primary is-outlined"}>Go</button>
-            </div>
-            <div className={"column is-one-quarter"}>
-              <h3>Quizlet tool</h3>
-              <button className={"button is-primary is-outlined"}>Go</button>
+          <div className={"columns is-multiline is-centered projects"}>
+            {[...Array(10).keys()].map(num => (
+              <div className={"column"}>
+                <h3>Nostrud excepteur ea culpa deserunt .</h3>
+                <button className={"button is-primary is-outlined"}>Go</button>
+              </div>
+            ))}
+          </div>
+          <div
+            className={"more-fade"}
+            onClick={() => unlimited()}
+            ref={moreFade}
+          >
+            <div className={"more-button"}>
+              <img src={arrow} className={"arrow"}></img>
+              <span className={"more"}>MORE</span>
             </div>
           </div>
         </div>
