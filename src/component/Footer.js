@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div id="footer">
-      Qui reprehenderit eiusmod non cupidatat aliquip culpa.
+      Made by &nbsp; <i class="far fa-heart"></i> &nbsp; with ANMICIUS.
     </div>
   );
 };

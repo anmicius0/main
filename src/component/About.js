@@ -12,11 +12,11 @@ const About = props => {
             <span>ANMICIUS</span>
           </h2>
           <p>
-            Et in ea sint labore non nulla ut anim ad labore. Amet laborum est
-            aute voluptate. Irure irure dolore qui cillum voluptate velit ipsum
-            qui pariatur labore reprehenderit enim. Et elit commodo pariatur
-            dolor Lorem. Commodo irure ut pariatur adipisicing incididunt culpa
-            id cillum mollit.
+            Anmicius, a word came from Latin. Meaning the mind full of the most
+            crazy and inspiring idea. Naming this is wishing to make all the
+            crazy stuff in my brain into the real projects. Use the tool that
+            made by myself is an amazing experience. Hope you also enjoy the
+            product I made. I you have any feedback, welcome to contact me.
           </p>
 
           <div className={"columns is-multiline is-mobile"}>
