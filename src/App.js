@@ -1,15 +1,10 @@
 import React, { useState } from "react";
 import "./App.css";
 import "bulma";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Navbar from "./component/Navbar";
-import Landing from "./component/Landing";
-import Projects from "./component/Projects";
-import Banner from "./component/Banner";
-import Blog from "./component/Blog";
-import Signup from "./component/Signup";
-import About from "./component/About";
-import Footer from "./component/Footer";
+import Main from "./view/Main";
 
 function App() {
   const [projects, setProjects] = useState([
@@ -33,16 +28,18 @@ function App() {
   ]);
 
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
-      <Landing />
-      <Projects projects={projects} />
-      <Banner />
-      <Blog />
-      <Signup />
-      <About contacts={contacts} />
-      <Footer />
-    </>
+      <Switch>
+        <Route
+          path="/"
+          exact
+          render={location => (
+            <Main projects={projects} contacts={contacts} location={location} />
+          )}
+        />
+      </Switch>
+    </BrowserRouter>
   );
 }
 
