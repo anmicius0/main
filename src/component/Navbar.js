@@ -28,26 +28,6 @@ const Navbar = () => {
           <span aria-hidden="true"></span>
         </div>
       </div>
-
-      <div className={"navbar-menu"} ref={menu}>
-        <div className={"navbar-end"}>
-          <div className={"navbar-item login"} aria-label="login">
-            <a href="#" onClick={() => toggleMenu()}>
-              Log in
-            </a>
-          </div>
-
-          <div className={"navbar-item signup"} aria-label="signup">
-            <a
-              href="#signup-page"
-              className={"button is-primary"}
-              onClick={() => toggleMenu()}
-            >
-              Sign up
-            </a>
-          </div>
-        </div>
-      </div>
     </nav>
   );
 };
