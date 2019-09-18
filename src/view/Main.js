@@ -1,11 +1,11 @@
 import React from "react";
 
-import Landing from "./component/Landing";
-import Projects from "./component/Projects";
-import Banner from "./component/Banner";
-import Blog from "./component/Blog";
-import About from "./component/About";
-import Footer from "./component/Footer";
+import Landing from "../component/Landing";
+import Projects from "../component/Projects";
+import Banner from "../component/Banner";
+import Blog from "../component/Blog";
+import About from "../component/About";
+import Footer from "../component/Footer";
 
 const Main = props => {
   return (
