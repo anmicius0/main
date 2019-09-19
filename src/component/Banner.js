@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className={"hero is-primary banner"}>
       <div className={"hero-body has-text-centered"}>
-        <h2>Somethin I want to tell everybody</h2>
+        <h2>Privacy is My Principle - Anmicius</h2>
       </div>
     </div>
   );
