@@ -24,7 +24,11 @@ function App() {
       link: "mailto:allenlin@disroot.org",
       icon: "fas fa-envelope"
     },
-    { name: "PGP Key", link: "https://stpck.anmicius.tk", icon: "fas fa-key" }
+    {
+      name: "PGP Key",
+      link: "https://telegra.ph/PGP-Key-for-allenlindisrootorg-09-19",
+      icon: "fas fa-key"
+    }
   ]);
 
   return (
