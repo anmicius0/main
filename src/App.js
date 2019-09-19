@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import "bulma";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 import Navbar from "./component/Navbar";
 import Main from "./view/Main";
@@ -28,18 +28,16 @@ function App() {
   ]);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Switch>
         <Route
           path="/"
           exact
-          render={location => (
-            <Main projects={projects} contacts={contacts} location={location} />
-          )}
+          render={() => <Main projects={projects} contacts={contacts} />}
         />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
