@@ -85,7 +85,6 @@ body {
     background: #ffffff;
     border: 0.5px solid rgba(0, 209, 178, 0.3);
     box-sizing: border-bLogoox;
-    box-shadow: -3px 3px 4px rgba(0, 209, 178, 0.3);
     border-radius: 18px;
 
     margin: 1.5em 2em;
@@ -94,8 +93,12 @@ body {
   }
 
   .skills {
-    i {
-      color: $primary-color;
+    .column {
+      border: none;
+
+      i {
+        color: $primary-color;
+      }
     }
   }
 

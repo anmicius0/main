@@ -10,13 +10,13 @@ const Skills = props => {
           <h2>Skills</h2>
           <div className={"columns is-mutiline"}>
             {skills.map(skill => (
-              <a href={skill.link} className={"column"}>
+              <div className={"column"}>
                 <span className={"icon"}>
                   <i className={skill.icon}></i>
                 </span>
                 <br />
                 <h3>{skill.name}</h3>
-              </a>
+              </div>
             ))}
           </div>
         </div>
