@@ -60,24 +60,6 @@ body {
 .navbar {
   margin: 0;
   position: fixed;
-
-  .navbar-menu {
-    text-align: center;
-    .login {
-      a {
-        color: #000000;
-        text-decoration: none;
-        font-size: 1.2em;
-      }
-    }
-
-    .signup {
-      a {
-        font-size: 1.3em;
-        font-weight: 700;
-      }
-    }
-  }
 }
 
 //*******************************************************************
@@ -90,7 +72,7 @@ body {
 }
 
 //*******************************************************************
-//  Project  and  Blog                                             //
+//  Skills, Project, and  Blog                                     //
 //*******************************************************************
 
 .section {
@@ -109,6 +91,12 @@ body {
     margin: 1.5em 2em;
     padding: 2em;
     text-align: center;
+  }
+
+  .skills {
+    i {
+      color: $primary-color;
+    }
   }
 
   .projects {
@@ -213,47 +201,6 @@ body {
 .banner {
   h2 {
     color: #ffffff;
-  }
-}
-
-//*******************************************************************
-//  Signup                                                         //
-//*******************************************************************
-#signup-page {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2em;
-
-  h2 {
-    color: #ffffff;
-    text-align: start;
-    margin: 1em 0;
-  }
-
-  .container {
-    margin-bottom: 4em;
-
-    input {
-      margin-bottom: 2em;
-      border-radius: 10px;
-      height: 3em;
-      width: 75vw;
-      padding-left: 1.5em;
-      font-weight: 700;
-    }
-
-    input::placeholder {
-      font-weight: 700;
-      color: #000000;
-    }
-
-    .button {
-      border-radius: 7px;
-      font-weight: 700;
-      padding: 0;
-      width: 25vw;
-    }
   }
 }
 
@@ -436,37 +383,6 @@ body {
   .banner {
     h2 {
       font-size: 2em;
-    }
-  }
-  //*******************************************************************
-  //  Signup                                                         //
-  //*******************************************************************
-  #signup-page {
-    height: 100vh;
-    padding: 6em;
-
-    h2 {
-      font-size: 4.7em;
-    }
-
-    .container {
-      margin-bottom: 0em;
-
-      input {
-        height: 4em;
-        margin-bottom: 3.2em;
-        padding-left: 3em;
-      }
-
-      input::placeholder {
-        font-size: 1.6em;
-      }
-
-      .button {
-        height: 2em;
-        width: 8em;
-        font-size: 2em;
-      }
     }
   }
 

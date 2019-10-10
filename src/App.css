@@ -53,21 +53,6 @@ body h3 {
   position: fixed;
 }
 
-.navbar .navbar-menu {
-  text-align: center;
-}
-
-.navbar .navbar-menu .login a {
-  color: #000000;
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.navbar .navbar-menu .signup a {
-  font-size: 1.3em;
-  font-weight: 700;
-}
-
 .title {
   margin: 4em 0 0 0;
   padding-bottom: 0;
@@ -89,6 +74,10 @@ body h3 {
   margin: 1.5em 2em;
   padding: 2em;
   text-align: center;
+}
+
+.section .skills i {
+  color: #00d1b2;
 }
 
 .section .projects .button {
@@ -186,66 +175,6 @@ body h3 {
 
 .banner h2 {
   color: #ffffff;
-}
-
-#signup-page {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 2em;
-}
-
-#signup-page h2 {
-  color: #ffffff;
-  text-align: start;
-  margin: 1em 0;
-}
-
-#signup-page .container {
-  margin-bottom: 4em;
-}
-
-#signup-page .container input {
-  margin-bottom: 2em;
-  border-radius: 10px;
-  height: 3em;
-  width: 75vw;
-  padding-left: 1.5em;
-  font-weight: 700;
-}
-
-#signup-page .container input::-webkit-input-placeholder {
-  font-weight: 700;
-  color: #000000;
-}
-
-#signup-page .container input:-ms-input-placeholder {
-  font-weight: 700;
-  color: #000000;
-}
-
-#signup-page .container input::-ms-input-placeholder {
-  font-weight: 700;
-  color: #000000;
-}
-
-#signup-page .container input::placeholder {
-  font-weight: 700;
-  color: #000000;
-}
-
-#signup-page .container .button {
-  border-radius: 7px;
-  font-weight: 700;
-  padding: 0;
-  width: 25vw;
 }
 
 #about {
@@ -385,38 +314,6 @@ body h3 {
     background: #ffffff;
   }
   .banner h2 {
-    font-size: 2em;
-  }
-  #signup-page {
-    height: 100vh;
-    padding: 6em;
-  }
-  #signup-page h2 {
-    font-size: 4.7em;
-  }
-  #signup-page .container {
-    margin-bottom: 0em;
-  }
-  #signup-page .container input {
-    height: 4em;
-    margin-bottom: 3.2em;
-    padding-left: 3em;
-  }
-  #signup-page .container input::-webkit-input-placeholder {
-    font-size: 1.6em;
-  }
-  #signup-page .container input:-ms-input-placeholder {
-    font-size: 1.6em;
-  }
-  #signup-page .container input::-ms-input-placeholder {
-    font-size: 1.6em;
-  }
-  #signup-page .container input::placeholder {
-    font-size: 1.6em;
-  }
-  #signup-page .container .button {
-    height: 2em;
-    width: 8em;
     font-size: 2em;
   }
   #about p {

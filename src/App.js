@@ -12,6 +12,14 @@ function App() {
     { name: "Stock simulator", link: "https://stock.anmicius.tk" }
   ]);
 
+  const [skills, setSkills] = useState([
+    { name: "HTML", icon: "fab fa-html5 fa-3x" },
+    { name: "CSS", icon: "fab fa-css3-alt fa-3x" },
+    { name: "Javascript", icon: "fab fa-js fa-3x" },
+    { name: "React.js", icon: "fab fa-react fa-3x" },
+    { name: "Pythone", icon: "fab fa-python fa-3x" }
+  ]);
+
   const [contacts, setContacts] = useState([
     {
       name: "Github",
@@ -38,7 +46,9 @@ function App() {
         <Route
           path="/"
           exact
-          render={() => <Main projects={projects} contacts={contacts} />}
+          render={() => (
+            <Main projects={projects} skills={skills} contacts={contacts} />
+          )}
         />
       </Switch>
     </HashRouter>
