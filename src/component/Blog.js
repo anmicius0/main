@@ -9,6 +9,7 @@ const Blog = () => {
     setClassList(["container"]);
     moreFade.current.style.display = "none";
   };
+
   return (
     <>
       <div className={"section"}>
@@ -55,8 +56,13 @@ const Blog = () => {
               <p> Read More</p>
             </div>
           </div>
-          <div className={"more-fade"} ref={moreFade}>
-            <div className={"more-button"} onClick={() => unlimited()}>
+
+          <div
+            className={"more-fade"}
+            ref={moreFade}
+            onClick={() => unlimited()}
+          >
+            <div className={"more-button"}>
               <img src={arrow} className={"arrow"}></img>
               <span className={"more"}>MORE</span>
             </div>
