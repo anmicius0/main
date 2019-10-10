@@ -12,7 +12,7 @@ const Skills = props => {
             {skills.map(skill => (
               <div className={"column"}>
                 <span className={"icon"}>
-                  <i className={skill.icon}></i>
+                  <i className={skill.icon} style={{ color: skill.color }}></i>
                 </span>
                 <br />
                 <h3>{skill.name}</h3>

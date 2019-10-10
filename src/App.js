@@ -14,10 +14,10 @@ function App() {
 
   const [skills, setSkills] = useState([
     { name: "HTML", color: "#f16528", icon: "fab fa-html5 fa-3x" },
-    { name: "CSS", color: "#f16528", icon: "fab fa-css3-alt fa-3x" },
-    { name: "Javascript", color: "#f16528", icon: "fab fa-js fa-3x" },
-    { name: "React.js", color: "#f16528", icon: "fab fa-react fa-3x" },
-    { name: "Pythone", color: "#f16528", icon: "fab fa-python fa-3x" }
+    { name: "CSS", color: "#35a9dc", icon: "fab fa-css3-alt fa-3x" },
+    { name: "Javascript", color: "#f0db4e", icon: "fab fa-js fa-3x" },
+    { name: "React.js", color: "#02d6fd", icon: "fab fa-react fa-3x" },
+    { name: "Pythone", color: "#386e9c", icon: "fab fa-python fa-3x" }
   ]);
 
   const [contacts, setContacts] = useState([
