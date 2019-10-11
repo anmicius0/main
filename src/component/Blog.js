@@ -1,10 +1,10 @@
 import React, { useRef, useState, useEffect } from "react";
 import arrow from "../image/arrow.png";
 import butter from "../butter-client";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   const [classList, setClassList] = useState(["container limited"]);
-  const moreFade = useRef(null);
   const [posts, setPosts] = useState();
 
   useEffect(() => {
@@ -18,11 +18,6 @@ const Blog = () => {
         console.log(err);
       });
   }, []);
-
-  const unlimited = () => {
-    setClassList(["container"]);
-    moreFade.current.style.display = "none";
-  };
 
   return (
     <>
@@ -40,15 +35,11 @@ const Blog = () => {
               : null}
           </div>
 
-          <div
-            className={"more-fade"}
-            ref={moreFade}
-            onClick={() => unlimited()}
-          >
-            <div className={"more-button"}>
+          <div className={"more-fade"}>
+            <Link to="/blog" className={"more-button"}>
               <img src={arrow} className={"arrow"}></img>
               <span className={"more"}>MORE</span>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
