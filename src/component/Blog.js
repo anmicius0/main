@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import arrow from "../image/arrow.png";
 import butter from "../butter-client";
 import { Link } from "react-router-dom";
@@ -37,7 +37,7 @@ const Blog = () => {
 
           <div className={"more-fade"}>
             <Link to="/blog" className={"more-button"}>
-              <img src={arrow} className={"arrow"}></img>
+              <img src={arrow} className={"arrow"} alt="down arrow"></img>
               <span className={"more"}>MORE</span>
             </Link>
           </div>

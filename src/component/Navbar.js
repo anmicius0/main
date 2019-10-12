@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { ReactComponent as Logo } from "../image/logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const menu = useRef(null);
@@ -11,9 +12,9 @@ const Navbar = () => {
   return (
     <nav className={"navbar is-fixed-top"}>
       <div className={"navbar-brand"}>
-        <a href="#" className={"navbar-item"}>
+        <Link to="/" className={"navbar-item"}>
           <Logo id="Logo" />
-        </a>
+        </Link>
         <div
           role="button"
           class="navbar-burger"
