@@ -1,4 +1,4 @@
-name: CI
+name: Github page
 
 on: push
 
@@ -7,5 +7,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: deploy to github page
-        run: npm run deploy
+      - uses: actions/checkout@master
+      - uses: actions/setup-node@master
+      - run: npm run deploy
