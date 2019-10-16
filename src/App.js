@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import "bulma";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Navbar from "./component/Navbar";
 import Main from "./view/Main";
@@ -40,7 +40,7 @@ function App() {
   ]);
 
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Navbar />
       <Switch>
         <Route
@@ -51,7 +51,7 @@ function App() {
           )}
         />
       </Switch>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
