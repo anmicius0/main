@@ -221,6 +221,10 @@ body h3 {
   text-align: center;
 }
 
+#footer a {
+  color: rgba(255, 255, 255, 0.55);
+}
+
 @media (min-width: 1080px) {
   body h1 {
     font-size: 3em;
